@@ -1,0 +1,29 @@
+jobs: [(4,11), (3,15), (9,5), (15,3), (2,24)]
+iter1: [1, 1, 1, 0, 0]
+replace (4,11) with (15,3), from 202 to 186
+iter2: [0, 1, 1, 1, 0]
+replace (3,15) with (2,24), from 186 to 181
+iter3: [0, 0, 1, 1, 1]
+replace (9,5) with (4,11), from 181 to 177
+Reselecting (4,11)!
+iter4: [1, 0, 0, 1, 1]
+
+jobs: [(5,3), (4,4), (10,2), (1,22), (22,1)]
+iter1: [1, 1, 1, 0, 0]
+replace (5,3) with (1,22), from 81 to 72
+iter2: [0, 1, 1, 1, 0]
+replace (10,2) with (22,1), from 72 to 69
+iter3: [0, 1, 0, 1, 1]
+replace (4,4) with (5,3), from 69 to 68
+Reselecting (5,3)!
+iter4: [1, 0, 0, 1, 1]
+
+jobs: [(5,6), (6,5), (16,2), (33,1), (2,21)]
+iter1: [1, 1, 1, 0, 0]
+replace (6,5) with (33,1), from 139 to 126
+iter2: [1, 0, 1, 1, 0]
+replace (16,2) with (2,21), from 126 to 124
+iter3: [1, 0, 0, 1, 1]
+replace (5,6) with (6,5), from 124 to 123
+Reselecting (6,5)!
+iter4: [0, 1, 0, 1, 1]
